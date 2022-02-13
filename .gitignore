@@ -204,3 +204,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### apllcation properties ###
+application-db.yml
+application-master-slave.properties
+application-sharding-databases.properties
+application-sharding-databases-tables.properties
+application-sharding-master-slave.properties
+application-sharding-tables.properties

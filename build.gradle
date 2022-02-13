@@ -27,6 +27,12 @@ dependencies {
     runtimeOnly 'com.h2database:h2'
     runtimeOnly 'mysql:mysql-connector-java'
     annotationProcessor 'org.projectlombok:lombok'
+
+    // https://mvnrepository.com/artifact/org.apache.shardingsphere/sharding-jdbc-spring-boot-starter
+    implementation group: 'org.apache.shardingsphere', name: 'sharding-jdbc-spring-boot-starter', version: '4.1.0'
+
+
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
 }
